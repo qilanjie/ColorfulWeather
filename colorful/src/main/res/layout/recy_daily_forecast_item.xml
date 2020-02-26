@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/base_dimen_size_dp_8"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/base_dimen_size_dp_8">
+
+        <TextView
+            android:id="@+id/tv_daily_date"
+            style="@style/DailyForecastText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:id="@+id/tv_daily_week"-->
+        <!--style="@style/DailyForecastText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/base_dimen_size_dp_8" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/base_dimen_size_dp_24"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/base_dimen_size_dp_16"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imgv_daily_icon"
+            android:layout_width="@dimen/base_dimen_size_dp_24"
+            android:layout_height="@dimen/base_dimen_size_dp_24"
+            android:layout_marginLeft="@dimen/base_dimen_size_dp_8"
+            app:tint="@color/colorWeatherIcon" />
+
+        <TextView
+            android:id="@+id/tv_daily_weather"
+            style="@style/DailyForecastText"
+            android:layout_width="@dimen/base_dimen_size_dp_80"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/base_dimen_size_dp_8" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_daily_temp_range"
+        style="@style/DailyForecastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/base_dimen_size_dp_8" />
+
+</FrameLayout>
