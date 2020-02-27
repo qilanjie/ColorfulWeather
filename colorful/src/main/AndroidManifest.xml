@@ -18,15 +18,15 @@
         <!--屏幕适配-->
         <meta-data
             android:name="design_width_in_dp"
-            android:value="320" />
+            android:value="1024" />
         <meta-data
             android:name="design_height_in_dp"
-            android:value="480" />
+            android:value="600" />
 
         <activity
             android:name=".activities.SplashActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,15 +36,15 @@
         </activity>
         <activity
             android:name=".activities.SweetActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".activities.CitySelectActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".activities.MeActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
 
         <service android:name=".service.AutoUpdateService" />
     </application>
