@@ -2,18 +2,17 @@ package com.weather.sweet.xww.colorfulweather.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.res.ColorStateList;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.AppCompatTextView;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.tabs.TabLayout;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -40,7 +39,6 @@ import com.weather.sweet.xww.colorfulweather.entity.CityEntity;
 import com.weather.sweet.xww.colorfulweather.entity.CountyEntity;
 import com.weather.sweet.xww.colorfulweather.entity.HotCitiesEntity;
 import com.weather.sweet.xww.colorfulweather.entity.ProvinceEntity;
-import com.weather.sweet.xww.colorfulweather.utils.Color;
 import com.weather.sweet.xww.colorfulweather.utils.Icon;
 import com.weather.sweet.xww.colorfulweather.utils.OccupyView;
 
@@ -51,7 +49,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import skin.support.widget.SkinCompatTextView;
 
 /**
  * 功能：

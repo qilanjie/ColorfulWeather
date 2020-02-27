@@ -5,15 +5,14 @@ import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
-import android.support.v7.app.SkinAppCompatDelegateImpl;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.app.SkinAppCompatDelegateImpl;
 
 import com.weather.sweet.xww.applibaray.utils.activity.ActivityUtil;
 import com.weather.sweet.xww.applibaray.utils.statusbar.StatusBarUtil;
-import com.weather.sweet.xww.colorfulweather.R;
 
 import butterknife.ButterKnife;
 

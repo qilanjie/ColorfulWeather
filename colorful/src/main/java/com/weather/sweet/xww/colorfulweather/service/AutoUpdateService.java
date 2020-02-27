@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.weather.sweet.xww.applibaray.app.AppConfiguration;
 import com.weather.sweet.xww.applibaray.net.rest.RestClient;

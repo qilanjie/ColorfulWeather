@@ -1,7 +1,7 @@
 package com.weather.sweet.xww.colorfulweather.utils;
 
 import android.annotation.SuppressLint;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 import com.weather.sweet.xww.applibaray.app.AppConfiguration;
 import com.weather.sweet.xww.colorfulweather.R;

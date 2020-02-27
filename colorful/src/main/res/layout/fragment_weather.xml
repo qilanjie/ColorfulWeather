@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +8,7 @@
     tools:context=".activities.SweetActivity"
     tools:ignore="RtlHardcoded">
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:overScrollMode="never">
@@ -100,7 +100,7 @@
             </FrameLayout>
 
             <!--天气卡片-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/card_weather_now"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/sweet_card_weather_height"
@@ -191,7 +191,7 @@
                     </LinearLayout>
 
                 </FrameLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
             <!--底部卡片-->
@@ -205,7 +205,7 @@
                 android:orientation="vertical">
 
                 <!--逐时预报-->
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/base_dimen_size_dp_8"
@@ -225,16 +225,16 @@
                             android:gravity="center"
                             android:text="@string/sweet_title_txt_hourly" />
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/recycler_hourly_forecast"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:overScrollMode="never" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 <!--未来一周天气预报-->
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="@dimen/base_dimen_size_dp_8"
@@ -254,16 +254,16 @@
                             android:gravity="center"
                             android:text="@string/sweet_title_txt_daily" />
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/recycler_daily_forecast"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:overScrollMode="never" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
         </RelativeLayout>
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

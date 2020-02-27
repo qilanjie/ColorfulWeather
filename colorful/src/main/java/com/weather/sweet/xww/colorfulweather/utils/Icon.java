@@ -2,7 +2,7 @@ package com.weather.sweet.xww.colorfulweather.utils;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 
 import com.weather.sweet.xww.colorfulweather.R;
 

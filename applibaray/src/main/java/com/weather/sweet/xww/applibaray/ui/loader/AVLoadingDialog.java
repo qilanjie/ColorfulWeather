@@ -1,7 +1,7 @@
 package com.weather.sweet.xww.applibaray.ui.loader;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatDialog;
+import androidx.appcompat.app.AppCompatDialog;
 import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;

@@ -11,8 +11,8 @@ import android.graphics.Paint;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.Nullable;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
